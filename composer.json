@@ -12,6 +12,12 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "Smurf\\AppBundle": "." }
-    }
+        "psr-0": { "Smurf\\AppBundle": "" }
+    },
+    "target-dir" : "vendor/Smurf/AppBundle",
+    "extra" : {
+        "branch-alias" : {
+            "master" : "1.0.0"
+        }
+    }    
 }
