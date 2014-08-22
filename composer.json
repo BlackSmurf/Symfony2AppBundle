@@ -1,0 +1,17 @@
+{
+    "name": "Smurf/AppBundle",
+    "type": "library",
+    "description": "",
+    "keywords": ["web","application","bundle"],
+    "homepage": "http://www.blacksmurf.net",
+    "license": "MIT",
+    "authors": [
+        {"name": "Julien Buonocore", "email": "julien.buonocore@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Smurf\\AppBundle": "." }
+    }
+}

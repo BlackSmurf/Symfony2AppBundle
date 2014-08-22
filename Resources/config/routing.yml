@@ -1,0 +1,7 @@
+smurf_app_homepage:
+    pattern:  /home
+    defaults: { _controller: SmurfAppBundle:Home:index }
+
+
+#smurf_app_default:
+#    pattern: /{_controller}
