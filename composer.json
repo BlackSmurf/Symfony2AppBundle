@@ -1,5 +1,5 @@
 {
-    "name": "smurf/app-bundle",
+    "name": "smurf/smurf-app-bundle",
     "type": "symfony-bundle",
     "description": "Starter kit for Symfony2 web application",
     "keywords": ["web","application","bundle"],
