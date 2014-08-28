@@ -1,9 +1,9 @@
 {
     "name": "Smurf/AppBundle",
     "type": "symfony-bundle",
-    "description": "",
+    "description": "Starter kit for Symfony2 web application",
     "keywords": ["web","application","bundle"],
-    "license": "MIT",
+    "license": "Creative Commons BY-NC-ND 4.0",
     "authors": [
         {
             "name": "Julien Buonocore",
