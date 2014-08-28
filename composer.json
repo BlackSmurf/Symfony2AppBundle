@@ -18,6 +18,7 @@
         "doctrine/doctrine-bundle":         "*"        
     },
     "autoload": {
-        "psr-4": { "Smurf\\Symfony2AppBundle\\": "" }
-    }
+        "psr-0": { "Smurf\\Symfony2AppBundle\\": "" }
+    },
+    "target-dir": "Smurf/Symfony2AppBundle"
 }
