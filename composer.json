@@ -1,15 +1,21 @@
 {
     "name": "Smurf/AppBundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "description": "",
     "keywords": ["web","application","bundle"],
-    "homepage": "http://www.blacksmurf.net",
     "license": "MIT",
     "authors": [
-        {"name": "Julien Buonocore", "email": "julien.buonocore@gmail.com"}
+        {
+            "name": "Julien Buonocore",
+            "email": "julien.buonocore@gmail.com",
+            "homepage": "http://www.blacksmurf.net"
+        }
     ],
     "require": {
-        "php": ">=5.3.2"
+        "php":                              ">=5.3.2",
+        "symfony/framework-bundle":         ">=2.5",
+        "twig/twig":                        "*",
+        "doctrine/doctrine-bundle":         "*"        
     },
     "autoload": {
         "psr-0": { "Smurf\\AppBundle": "" }
