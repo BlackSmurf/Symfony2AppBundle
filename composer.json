@@ -18,6 +18,6 @@
         "doctrine/doctrine-bundle":         "*"        
     },
     "autoload": {
-        "psr-0": { "Smurf\\AppBundle": "" }
+        "psr-0": { "Smurf\\AppBundle\\": "" }
     }
 }
