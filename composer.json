@@ -20,5 +20,4 @@
     "autoload": {
         "psr-0": { "Smurf\\AppBundle": "" }
     },
-    "target-dir" : "vendor/Smurf/AppBundle"
 }
