@@ -1,6 +1,6 @@
 <?php
 
-namespace Smurf\AppBundle;
+namespace Smurf\AppBundle\SmurfAppBundle;
 
 require "autoload.php";
 
