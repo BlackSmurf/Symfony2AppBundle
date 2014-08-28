@@ -20,10 +20,5 @@
     "autoload": {
         "psr-0": { "Smurf\\AppBundle": "" }
     },
-    "target-dir" : "vendor/Smurf/AppBundle",
-    "extra" : {
-        "branch-alias" : {
-            "master" : "1.0.0"
-        }
-    }    
+    "target-dir" : "vendor/Smurf/AppBundle"
 }
