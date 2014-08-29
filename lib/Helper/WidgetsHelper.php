@@ -1,6 +1,6 @@
 <?php
 
-namespace Smurf\AppBundle\Helper;
+namespace Smurf\Symfony2AppBundle\Helper;
 
 use Symfony\Component\Templating\Helper\Helper;
 

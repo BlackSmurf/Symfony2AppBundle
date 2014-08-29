@@ -1,5 +1,5 @@
 parameters:
-#    smurf_app.example.class: Smurf\AppBundle\Example
+#    smurf_app.example.class: Smurf\Symfony2AppBundle\Example
 
 services:
 #    smurf_app.example:

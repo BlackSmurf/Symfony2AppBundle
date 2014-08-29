@@ -1,6 +1,6 @@
 smurf_app_homepage:
     pattern:  /home
-    defaults: { _controller: SmurfAppBundle:Home:index }
+    defaults: { _controller: Symfony2AppBundle:Home:index }
 
 
 #smurf_app_default:

@@ -1,6 +1,6 @@
 <?php
 
-use Smurf\AppBundle\Helper\WidgetsHelper;
+use Smurf\Symfony2AppBundle\Helper\WidgetsHelper;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
@@ -55,9 +55,9 @@ use Smurf\AppBundle\Helper\WidgetsHelper;
             <?php endif; ?>
             <?php if ($view['slots']->has('author_sign')) : ?>
                 <p class="text-right"><?php $view['slots']->output('author_sign', 'Julien Buonocore<br />Conseil en systèmes et logiciels informatiques<br />EIRL') ?></p>
-        <?php endif; ?>
+            <?php endif; ?>
         </div>
-<?php $view['slots']->output('javascripts') ?>
+        <?php $view['slots']->output('javascripts') ?>
         <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/smurfapp/js/jquery-2.1.1.min.js') ?>"></script>
         <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/smurfapp/js/bootstrap-3.1.1.js') ?>"></script>
         <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/smurfapp/js/less-1.7.3.min.js') ?>"></script>

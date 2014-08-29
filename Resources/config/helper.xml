@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="templating.helper.widgets_helper" class="Smurf\AppBundle\Helper\WidgetsHelper">
+        <service id="templating.helper.widgets_helper" class="Smurf\Symfony2AppBundle\Helper\WidgetsHelper">
             <tag name="templating.helper" alias="widgets" />
         </service>
     </services>
