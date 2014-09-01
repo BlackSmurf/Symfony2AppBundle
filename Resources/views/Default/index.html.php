@@ -1,3 +1,8 @@
+<?php
+
+use Smurf\Symfony2AppBundle\Helper\WidgetsHelper;
+?>
+
 <?php /* Layout */ ?>
 <?php $view->extend('SmurfSymfony2AppBundle::layout.html.php') ?>
 <?php /* Layout Parameters */ ?>
