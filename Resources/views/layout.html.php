@@ -18,9 +18,9 @@ use Smurf\Symfony2AppBundle\Helper\WidgetsHelper;
           <link rel="stylesheet" href="<?php echo $view->escape($url) ?>" />
           <?php endforeach; ?> */
         ?>
-        <link rel="stylesheet/less" href="<?php echo $view['assets']->getUrl('bundles/smurfapp/css/bootstrap.less') ?>" type="text/css" media="all" />
-        <link rel="stylesheet/less" href="<?php echo $view['assets']->getUrl('bundles/smurfapp/css/bootstrap-theme.less') ?>" type="text/css" media="all" />
-        <link rel="stylesheet/less" href="<?php echo $view['assets']->getUrl('bundles/smurfapp/css/style.less') ?>" type="text/css" media="all" />
+        <link rel="stylesheet/less" href="<?php echo $view['assets']->getUrl('bundles/symfony2app/css/bootstrap.less') ?>" type="text/css" media="all" />
+        <link rel="stylesheet/less" href="<?php echo $view['assets']->getUrl('bundles/symfony2app/css/bootstrap-theme.less') ?>" type="text/css" media="all" />
+        <link rel="stylesheet/less" href="<?php echo $view['assets']->getUrl('bundles/symfony2app/css/style.less') ?>" type="text/css" media="all" />
     </head>
     <body>
         <div class="container-fluid">
@@ -58,9 +58,9 @@ use Smurf\Symfony2AppBundle\Helper\WidgetsHelper;
             <?php endif; ?>
         </div>
         <?php $view['slots']->output('javascripts') ?>
-        <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/smurfapp/js/jquery-2.1.1.min.js') ?>"></script>
-        <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/smurfapp/js/bootstrap-3.1.1.js') ?>"></script>
-        <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/smurfapp/js/less-1.7.3.min.js') ?>"></script>
+        <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/symfony2app/js/jquery-2.1.1.min.js') ?>"></script>
+        <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/symfony2app/js/bootstrap-3.1.1.js') ?>"></script>
+        <script type="text/javascript" src="<?php echo $view['assets']->getUrl('bundles/symfony2app/js/less-1.7.3.min.js') ?>"></script>
         <script type="text/javascript">
             $(function() {
 <?php $view['slots']->output('js_ready') ?>
