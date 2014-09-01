@@ -4,7 +4,7 @@ use Smurf\Symfony2AppBundle\Helper\WidgetsHelper;
 ?>
 
 <?php /* Layout */ ?>
-<?php $view->extend('SmurfSymfony2AppBundle::layout.html.php') ?>
+<?php $view->extend('Symfony2AppBundle::layout.html.php') ?>
 <?php /* Layout Parameters */ ?>
 <?php $view['slots']->set('page_title', 'Accueil') ?>
 <?php $view['slots']->set('customer', 'Ministère de l\'Education nationale') ?>
