@@ -1,7 +1,9 @@
 parameters:
-#    smurf_app.example.class: Smurf\Symfony2AppBundle\Example
+     smurf.symfony2app.dynamicRouter.listener.class:  Smurf\Symfony2AppBundle\EventListener\Symfony2AppDynamicRouterListener
 
 services:
-#    smurf_app.example:
-#        class: %smurf_app.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    smurf.symfony2app.dynamicRouter.listener:
+        class: %smurf.symfony2app.dynamicRouter.listener.class%
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, priority: 33 }
+            

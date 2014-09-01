@@ -18,7 +18,7 @@
         "doctrine/doctrine-bundle":         "*"        
     },
     "autoload": {
-        "psr-0": { "Smurf\\Symfony2AppBundle": "" }
+        "psr-0": { "Smurf\\Symfony2AppBundle": "", "Smurf\\Symfony2AppBundle\\lib": "" }
     },
     "target-dir": "Smurf/Symfony2AppBundle",
     "minimum-stability": "dev",

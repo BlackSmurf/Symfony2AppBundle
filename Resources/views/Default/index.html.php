@@ -1,5 +1,5 @@
 <?php /* Layout */ ?>
-<?php $view->extend('SmurfAppBundle::layout.html.php') ?>
+<?php $view->extend('SmurfSymfony2AppBundle::layout.html.php') ?>
 <?php /* Layout Parameters */ ?>
 <?php $view['slots']->set('page_title', 'Accueil') ?>
 <?php $view['slots']->set('customer', 'Ministère de l\'Education nationale') ?>

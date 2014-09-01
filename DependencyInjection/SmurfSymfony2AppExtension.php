@@ -18,9 +18,6 @@ class SmurfSymfony2AppExtension extends Extension {
      * {@inheritDoc}
      */
     public function load(array $configs, ContainerBuilder $container) {
-        $configuration = new Configuration();
-        $config = $this->processConfiguration($configuration, $configs);
-
         $servicesLoader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $servicesLoader->load('services.yml');
 

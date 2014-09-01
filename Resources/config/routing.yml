@@ -1,7 +1,5 @@
-smurf_app_homepage:
-    pattern:  /home
-    defaults: { _controller: Symfony2AppBundle:Home:index }
-
-
-#smurf_app_default:
-#    pattern: /{_controller}
+smurf_symfony_core_system_security_route:
+    resource: "@SmurfSymfony2AppBundle/Controller"
+    type: annotation
+    prefix: /core
+    defaults:  { _controller: "SmurfSymfony2AppBundle:Default:index" }
